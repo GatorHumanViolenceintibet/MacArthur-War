@@ -1,0 +1,16 @@
+characters={
+	William_F_Dean={
+		name="William F. Dean"
+		portraits={
+			civilian={
+				large=gfx/leaders/ROK/Dean.dds
+			}
+		}
+		country_leader={
+			ideology=military_junta
+			traits={ }
+			expire="2048.1.1.1"
+			id=-1
+		}
+	}
+}

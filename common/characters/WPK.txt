@@ -1,0 +1,79 @@
+characters={
+	Kim_Il_Sung={
+		name="Kim Il-sung"
+		portraits={
+			civilian={
+				large=gfx/leaders/WPK/Sung.dds
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ dictator }
+			expire="2048.1.1.1"
+			id=-1
+		}
+	}
+
+	Bill_Clinton={
+		name="Bill Clinton"
+		portraits={
+			civilian={
+				large=gfx/leaders/USA/clinton.tga
+			}
+		}
+		country_leader={
+			ideology=libertarianism 
+			traits={ Libertarian Clinton }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		visible = { 
+		   has_country_flag = USA_Bills_Coup 
+		}
+	}
+	
+	Mark_Milley={
+		name="Mark Milley"
+		portraits={
+			army={
+				large=gfx/leaders/USA/milley.dds
+			}
+			army={
+				small="GFX_idea_george_patton"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected old_guard }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			visible = { 
+				has_completed_focus = USA_Promote_Milley 
+		    }
+		}
+	}
+	Zombie_MacArthur={
+		name="Douglas ''Zombie'' MacArthur"
+		portraits={
+			army={
+				large=gfx/leaders/USA/mac.png
+			}
+			army={
+				small="GFX_idea_george_patton"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine trait_reckless naval_invader war_hero }
+			skill=5
+			attack_skill=7
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			visible = { 
+				has_country_flag = zombies 
+		    }
+		}
+	}
+}
