@@ -4,11 +4,12 @@ technologies = {
 
 		enable_equipments = {
 			gw_tank_equipment
+
 		}
 		enable_subunits = {
 			light_armor
-		}
 
+		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
 			NOT = {	has_template_containing_unit = heavy_armor }
@@ -1472,6 +1473,7 @@ technologies = {
 		enable_subunits = {
 			heavy_armor
 		}
+
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
 			NOT = {	has_template_containing_unit = heavy_armor }
